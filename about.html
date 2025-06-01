@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Grade Tracking System</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to right, #e0f2f7, #c1e4f3);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            color: #333;
+        }
+
+        .about-container {
+            background-color: #ffffff;
+            padding: 40px 30px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+            text-align: center;
+            width: 90%;
+            max-width: 700px;
+            animation: fadeIn 1s ease-out;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #00C923;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            color: #555;
+            text-align: left;
+        }
+
+        .back-button {
+            display: inline-block;
+            padding: 12px 25px;
+            margin-top: 20px;
+            background-color: #6c757d;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.1em;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .back-button:hover {
+            background-color: #5a6268;
+            transform: translateY(-2px);
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body style="background-image: url('assets/Grade\ Track.jpg'); background-size: cover; background-repeat: no-repeat;">
+    <div class="about-container">
+        <h1>About the Grade Tracking System</h1>
+        <p>
+            Welcome to our Grade Tracking System, a system designed for the requirement of the subject CS308 or Software
+            Engineering 2 Major Course Outcome.
+        </p>
+        <p>
+            Group Members:
+            Mariano, Florheim Wizard V.
+            Daquing, Princess Mikylla P.
+            Peralta, Jerby G.
+        </p>
+        <p>
+            This system created to track their grades if the grades is available to request Certificate of Grades for
+            scholarship purpose, and to avoid the student travel from home to campus if the student is not sure if the
+            grades is completed to fill the Certificate.
+        </p>
+        <a href="index.html" class="back-button">Back to Welcome Page</a>
+    </div>
+</body>
+</html>
